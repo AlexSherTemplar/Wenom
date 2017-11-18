@@ -39,6 +39,12 @@ public class global : MonoBehaviour {
 		plata = ism;
 	}
 	public void Patroni(int ism){
-		patroni += ism;
+		if (money > 0) {
+			patroni += ism;
+			money -= 50;
+		}
+	}
+	public void Money(int ism){
+		money += ism;
 	}
 }
