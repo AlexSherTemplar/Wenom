@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/menu.unity
+    guid: c5333ecf460dc694f841ee5c9f154781
+  - enabled: 1
+    path: Assets/scenes/FKill.unity
+    guid: 5de63726efcbc3c4688fcda26d509771
+  - enabled: 1
+    path: Assets/scenes/FAtc.unity
+    guid: 6a8f5c12af4106e4ba1c9447d31a2eec
