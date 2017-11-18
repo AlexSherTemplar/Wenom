@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3a28e1441d4ff7a45989bc63d792edd0
+timeCreated: 1511034011
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Chekhovskoy
+  fontNames:
+  - Chekhovskoy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

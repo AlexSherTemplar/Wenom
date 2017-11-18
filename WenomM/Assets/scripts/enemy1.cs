@@ -20,8 +20,9 @@ public class enemy1 : MonoBehaviour {
 		dist = Vector3.Distance (player.transform.position, transform.position);
 
 		if (dist < RadiusSee) {
-			nav.SetDestination (player.transform.position);
 			nav.enabled = true;
+			nav.SetDestination (player.transform.position);
+
 		} else if (dist > RadiusSee) {
 			nav.enabled = false;
 		}
