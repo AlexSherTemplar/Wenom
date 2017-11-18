@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class global : MonoBehaviour {
 	//основные переменные
-	public int money,maxhp,maxEnergy,maxteplo;
+	public int money,maxhp,maxEnergy,maxteplo,patroni;
 	//робот
 	public int fstW, secW,osn,plata;
 
@@ -37,5 +37,8 @@ public class global : MonoBehaviour {
 	}
 	public void Plata(int ism){
 		plata = ism;
+	}
+	public void Patroni(int ism){
+		patroni += ism;
 	}
 }

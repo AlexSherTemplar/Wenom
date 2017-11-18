@@ -13,6 +13,6 @@ public class VivodMoney : MonoBehaviour {
 	
 
 	void Update () {
-		text.text =glob.GetComponent<global> ().money.ToString();
+		text.text ="Money: "+glob.GetComponent<global> ().money.ToString();
 	}
 }
