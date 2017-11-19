@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/1scene.unity
+- path: Assets/scenes/FKill.unity
   isLoaded: 1
   isActive: 1
